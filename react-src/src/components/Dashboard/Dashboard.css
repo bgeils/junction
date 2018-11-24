@@ -1,0 +1,22 @@
+.key-fig{
+	text-align: center;
+	height: 120px;
+	vertical-align: center;
+	position: relative;
+}
+
+.fig-num{
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%); 
+	font-size: 72pt;
+}
+
+.center-cards{
+	-webkit-box-pack: center;
+	justify-content: center;
+}
+
+.fault-label{
+	margin-left: 8px !important;
+}

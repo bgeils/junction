@@ -1,0 +1,22 @@
+.bolt-icon{
+	font-size: 1.2em;
+}
+
+.full{
+	min-height: 100vh;
+}
+
+.full-grid{
+	height: 88.3vh;
+	padding: 0px !important;
+}
+
+html, body, #root, #root>div {
+  min-height: 100vh;
+}
+
+.fill-upload{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    min-height: calc(100% - 55px);
+}
