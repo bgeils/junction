@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { compose } from 'recompose';
-import { Container, Header } from 'semantic-ui-react';
+import { Container, Header, Input } from 'semantic-ui-react';
 import WebcamCapture from './WebcamCapture';
 
 import withAuthorization from '../withAuthorization';
@@ -15,13 +15,29 @@ class Dashboard extends Component {
     return (
       <div className={'fill'}>
       <Container className={'fill-upload'}>
+        <div className="header">
           <Header as={'h2'} textAlign={'center'}>
             Junction SAP Challenge
           </Header>
+        </div>
 
-          <WebcamCapture />
+        <div className="chat-video-container">
+          <div className="video">
+            <WebcamCapture />
+            <div className="customer-stats">
+              <Header>Client Info</Header>
+              <Input label='Name' iconPosition='left' placeholder="Client's Name" className="input-classic"/>
+              <Input label='Age' iconPosition='left' placeholder="Client's Age" className="input-classic"/>
+            </div> 
+          </div>
 
-          <br/>
+          <div className="chat">
+            TODO Chat App here
+          </div>  
+        </div>
+
+        <div className="timeseries">
+        </div>
 
       </Container>
       <Footer/>

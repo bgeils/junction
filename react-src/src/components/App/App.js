@@ -4,7 +4,7 @@ import { Grid, Container } from 'semantic-ui-react';
 import { connect } from 'react-redux'
 
 import Navigation from '../Navigation/Navigation';
-import Room from '../Media/RoomPage';
+// import Room from '../Media/RoomPage';
 import Dashboard from '../Dashboard/Dashboard';
 import SignInPage from '../UserAuth/SignIn';
 import PasswordForgetPage from '../UserAuth/PasswordForget';
